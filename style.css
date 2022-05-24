@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    overflow-y: hidden;
+}
+
+.caixa{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    padding: 30px 0;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 20%;
+    text-align: center;
+    
+}
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+header nav{
+    position: absolute;
+    top: 65px;
+    right: 20px;
+}
+
+.item-menu{
+    margin: 0 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(132, 14, 201, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 300ms all;
+}
+.item-menu:hover{
+    border: 2px solid rgb(132, 14, 201);
+}
+.item-menu:last-child{
+    border: 2px solid rgb(132, 14, 201);
+}
+.secao-principal{
+    width: 90%;
+    margin: 50px auto;
+}
+.conteudo-principal h2{
+    margin: 20px 0;
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: rgb(132, 14, 201);
+}
+.conteudo-principal{
+    
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.conteudo-principal span{
+    color: white;
+    font-weight: 900;
+}
+.conteudo-principal p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0 20px 0;
+}
+.conteudo-principal form{
+    text-align: center;
+}
+.input-texto{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 10px;
+    border-radius: 20px;
+    
+}
+.botao-enviar{
+    width: 50%;
+    margin: 10px 0;
+    padding: 15px 10px;
+    border-radius: 20px;
+    background: rgb(132, 14, 201);
+    border: 3px solid rgb(132, 14, 201, 00);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 300ms all;
+}
+
+.botao-enviar:hover{
+    border: 3px solid rgb(132, 14, 201);
+    background-color: rgb(132, 14, 201, 00);
+    cursor: pointer;
+}
+.imagem-principal{
+    display: inline;
+    width: 60%;  
+}
